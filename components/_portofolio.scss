@@ -1,0 +1,118 @@
+.portfolioContainer {
+    .cardFlex {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin: 0 auto;
+        gap: 150px;
+
+        @media screen and (max-width :950px) {
+            flex-direction: column;
+        }
+
+    }
+
+    .mountainCard {
+        width: 20%;
+
+        @media screen and (max-width :950px) {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        h3 {
+            color: white;
+            text-align: center;
+        }
+
+        img {
+            height: 150px;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 20px;
+
+            @media screen and (max-width :950px) {
+                height: 250px;
+            }
+        }
+
+
+
+    }
+
+    .meetCard {
+        width: 20%;
+
+        @media screen and (max-width :950px) {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        h3 {
+            color: white;
+            text-align: center;
+        }
+
+        img {
+            height: 150px;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 20px;
+
+            @media screen and (max-width :950px) {
+                height: 250px;
+            }
+        }
+    }
+
+    .appCard {
+        width: 20%;
+
+        @media screen and (max-width :950px) {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        h3 {
+            color: white;
+            text-align: center;
+        }
+
+        img {
+            height: 150px;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 20px;
+
+            @media screen and (max-width :950px) {
+                height: 250px;
+            }
+        }
+    }
+
+    .linkContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.5rem;
+
+
+    }
+
+    a:hover {
+        cursor: pointer;
+    }
+
+
+}
