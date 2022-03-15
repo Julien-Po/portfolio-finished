@@ -275,6 +275,34 @@ header p span {
   }
 }
 
+.portfolioContainer img {
+  height: 150px;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 950px) {
+  .portfolioContainer img {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .portfolioContainer img {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .portfolioContainer img {
+    height: 150px;
+  }
+}
+
+.portfolioContainer h3 {
+  color: white;
+  text-align: center;
+}
+
 .portfolioContainer .mountainCard {
   width: 20%;
 }
@@ -286,107 +314,106 @@ header p span {
   }
 }
 
-.portfolioContainer .mountainCard h3 {
-  color: white;
-  text-align: center;
+.portfolioContainer .mountainCard .mountainGrid {
+  display: -ms-grid;
+  display: grid;
 }
 
-.portfolioContainer .mountainCard img {
-  height: 150px;
-  border-radius: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-bottom: 20px;
-}
-
-@media screen and (max-width: 950px) {
-  .portfolioContainer .mountainCard img {
-    height: 250px;
-  }
-}
-
-.portfolioContainer .meetCard {
+.meetCard {
   width: 20%;
 }
 
 @media screen and (max-width: 950px) {
-  .portfolioContainer .meetCard {
+  .meetCard {
     width: 50%;
     margin: 0 auto;
   }
 }
 
-.portfolioContainer .meetCard h3 {
+.meetCard .meetGrid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.meetCard h3 {
   color: white;
   text-align: center;
 }
 
-.portfolioContainer .meetCard img {
+.meetCard img {
   height: 150px;
   border-radius: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 950px) {
-  .portfolioContainer .meetCard img {
+  .meetCard img {
     height: 250px;
   }
 }
 
-.portfolioContainer .appCard {
+@media screen and (max-width: 550px) {
+  .meetCard img {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .meetCard img {
+    height: 150px;
+  }
+}
+
+.appCard {
   width: 20%;
 }
 
 @media screen and (max-width: 950px) {
-  .portfolioContainer .appCard {
+  .appCard {
     width: 50%;
     margin: 0 auto;
   }
 }
 
-.portfolioContainer .appCard h3 {
+.appCard .appGrid {
+  display: -ms-grid;
+  display: grid;
+}
+
+.appCard h3 {
   color: white;
   text-align: center;
 }
 
-.portfolioContainer .appCard img {
+.appCard img {
   height: 150px;
   border-radius: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 950px) {
-  .portfolioContainer .appCard img {
+  .appCard img {
     height: 250px;
   }
 }
 
-.portfolioContainer .linkContainer {
+@media screen and (max-width: 550px) {
+  .appCard img {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .appCard img {
+    height: 150px;
+  }
+}
+
+.linkContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -398,13 +425,14 @@ header p span {
           justify-content: center;
 }
 
-.portfolioContainer a {
+a {
   text-decoration: none;
   color: white;
   font-size: 1.5rem;
+  padding-top: 20px;
 }
 
-.portfolioContainer a:hover {
+a:hover {
   cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
